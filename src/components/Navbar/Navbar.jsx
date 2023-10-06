@@ -1,4 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
+import { FaUserCheck, FaUserPlus } from 'react-icons/fa';
 
 const Navbar = () => {
   const navLinks = (
@@ -45,13 +46,11 @@ const Navbar = () => {
         </ul>
       </div>
       <div className="navbar-end">
-      <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
-        <div className="w-10 rounded-full">
-        <FontAwesomeIcon icon="fa-solid fa-user" />
-        </div>
-      </label>
-        <Link>
-        <button className="btn">Login</button>
+        <Link to='/login'>
+        <button className="btn btn-outline"><FaUserCheck></FaUserCheck> Login</button>
+        </Link>
+        <Link to='/register'>
+        <button className="btn btn-outline ml-3"><FaUserPlus></FaUserPlus> Register</button>
         </Link>
       </div>
     </div>
