@@ -1,5 +1,5 @@
 import { Link, NavLink } from "react-router-dom";
-import { FaUserCheck, FaUserPlus } from 'react-icons/fa';
+import { FaUserCheck } from 'react-icons/fa';
 import { useContext } from "react";
 import { AuthContext } from "../../providers/AuthProvider";
 
@@ -66,9 +66,7 @@ const Navbar = () => {
         </Link>
         }
         
-        <Link to='/register'>
-        <button className="btn btn-outline ml-3"><FaUserPlus></FaUserPlus> Register</button>
-        </Link>
+        
       </div>
     </div>
   );
