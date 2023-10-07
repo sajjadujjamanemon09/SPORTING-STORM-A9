@@ -5,7 +5,9 @@
         "image": "https://i.ibb.co/F8Tqyqz/ildar-garifullin-UPj-ZWky-Z6aw-unsplash.jpg",
         "price": 39.99,
         "description": "Join us for the 'Summer Volleyball Slam,' where the sun, sand, and spike action combine to create the ultimate beach volleyball experience. Whether you're a competitive player or just looking for a day of fun in the sun, this event is a celebration of beach volleyball like no other.\n\nThe 'Summer Volleyball Slam' brings together teams from all over to showcase their skills on the sandy courts. Feel the warm sand between your toes as you dive, block, and serve your way to victory. Whether you're a seasoned pro or new to the game, the tournament has divisions for all levels.\n\nOur beachside venue offers the perfect setting, with ocean views and a lively atmosphere. Spectators can enjoy the action from the sidelines, soak up the sun, and cheer for their favorite teams.\n\nJoin us for the 'Summer Volleyball Slam' and experience the thrill of beach volleyball. It's a day of competition, camaraderie, and beachside fun that you won't want to miss!\n\n**Event Highlights:**\n- Sandy courts\n- Competitive play\n- Beachside atmosphere\n- Fun in the sun\n\n**Date:** [Insert Date]\n**Location:** [Insert Location]\n**Registration Fee:** $39.99\n\nGet your tickets now and be part of the 'Summer Volleyball Slam'!",
-        "details_button": "Learn More"
+        "location": "Beachside Resort",
+        "time": "26 July 2024, Wednesday",
+        "venue": "Sandy Courts"
     },
     {
         "id": 2,
@@ -13,7 +15,9 @@
         "image": "https://i.ibb.co/cvbhKNP/munbaik-cycling-clothing-i-ZJr-Oq-Ea-PNI-unsplash.jpg",
         "price": 39.99,
         "description": "Prepare to embark on an adrenaline-fueled journey at the 'Extreme Cycling Championship,' where only the boldest riders will conquer the most challenging terrains and obstacles on two wheels. This championship is not for the faint-hearted; it's for those who crave excitement and thrive on pushing the limits.\n\nThe 'Extreme Cycling Championship' features a series of heart-pounding events, including downhill races, freestyle jumps, and gravity-defying stunts. Riders from around the world will gather to showcase their skills and tackle the toughest trails.\n\nOur world-class courses are designed to test your speed, control, and courage. Whether you're a downhill specialist or a freestyle maverick, there's a category for you to shine in. Spectators can expect jaw-dropping performances and a thrilling atmosphere as riders defy gravity and push the boundaries of what's possible on a bicycle.\n\nJoin us for the 'Extreme Cycling Championship' and witness the fearless riders in action. Whether you're a competitor or a spectator, this event promises an unforgettable experience that will leave you on the edge of your seat.\n\n**Event Highlights:**\n- Gravity-defying stunts\n- Spectacular downhill races\n- Thrilling freestyle jumps\n- International competition\n\n**Date:** [Insert Date]\n**Location:** [Insert Location]\n**Registration Fee:** $39.99\n\nGet your tickets now and be part of this extreme cycling spectacle!",
-        "details_button": "Learn More"
+        "location": "Mountain Valley",
+        "time": "09 March 2024, Monday",
+        "venue": "Downhill Trail"
     },
     {
         "id": 3,
@@ -21,7 +25,9 @@
         "image": "https://i.ibb.co/9GBFzr4/joshua-hoehne-3-Ny-Xqusb-Ms-U-unsplash.jpg",
         "price": 29.99,
         "description": "Get ready for the 'Soccer Super Cup,' the premier soccer tournament that brings together top teams from around the world for an unforgettable clash of skills and strategies. It's a celebration of the world's most popular sport, and you won't want to miss a minute of the action.\n\nThe 'Soccer Super Cup' features fierce competition, stunning goals, and passionate fan support. Whether you're a fan of tiki-taka passing or blistering counterattacks, this tournament has it all. The world's best players will showcase their talent and teamwork as they vie for the coveted trophy.\n\nOur world-class stadiums provide the perfect backdrop for this soccer extravaganza. Feel the energy in the stands as fans from different nations come together to celebrate their love for the game. The 'Soccer Super Cup' is not just a tournament; it's a cultural experience that unites people through the power of soccer.\n\nJoin us for the 'Soccer Super Cup' and witness the drama and excitement on the pitch. Whether you're cheering for your favorite team or just soaking in the atmosphere, this event promises unforgettable moments.\n\n**Event Highlights:**\n- Top international teams\n- High-quality soccer\n- Electric atmosphere\n- Memorable goals\n\n**Date:** [Insert Date]\n**Location:** [Insert Location]\n**Registration Fee:** $29.99\n\nGet your tickets now and be part of the 'Soccer Super Cup'!",
-        "details_button": "Learn More"
+        "location": "Stadium City",
+        "time": "10 February 2024, Sunday",
+        "venue": "Main Stadium"
     },
     {
         "id": 4,
@@ -29,7 +35,9 @@
         "image": "https://i.ibb.co/Xpb2GMs/mick-de-paola-wg7si-IVTbv-M-unsplash.jpg",
         "price": 59.99,
         "description": "Catch the waves and ride the thrill at the 'Summer Surfing Showdown,' where surfers from across the globe gather to showcase their skills and ride some of the most epic waves you'll ever see. This event is all about sun, surf, and stoke!\n\nThe 'Summer Surfing Showdown' features a series of exhilarating surf competitions, from classic longboard rides to aerial tricks and tube riding. Surfers will tackle challenging conditions and seek to impress judges and spectators alike with their style and technique.\n\nOur pristine beachside location offers perfect waves and a laid-back atmosphere. Whether you're an experienced surfer or a beach bum looking to catch some rays, this event is a celebration of surf culture and the joy of riding the ocean's energy.\n\nJoin us for the 'Summer Surfing Showdown' and immerse yourself in the surf lifestyle. From the exhilarating wipeouts to the triumphant rides, this event is a tribute to the sea and the surfers who love it.\n\n**Event Highlights:**\n- Epic waves\n- Diverse surf competitions\n- Beachside atmosphere\n- Surf culture celebration\n\n**Date:** [Insert Date]\n**Location:** [Insert Location]\n**Registration Fee:** $59.99\n\nGet your tickets now and ride the waves at the 'Summer Surfing Showdown'!",
-        "details_button": "Learn More"
+        "location": "Coastal Paradise",
+        "time": "03 September 2025, Friday",
+        "venue": "Epic Waves"
     },
     {
         "id": 5,
@@ -37,7 +45,9 @@
         "image": "https://i.ibb.co/NFwTdM8/brook-anderson-1-Tw-Uo-Sk-VEd-Q-unsplash.jpg",
         "price": 44.99,
         "description": "Calling all climbing enthusiasts and adventure seekers! The 'Rock Climbing Rendezvous' is your opportunity to conquer nature's vertical challenges, scale towering cliffs, and experience the thrill of rock climbing like never before.\n\nThis event is a gathering of climbers of all levels, from beginners looking to try their first routes to seasoned experts seeking a new challenge. With breathtaking natural landscapes and challenging rock formations, it's the ultimate climbing experience.\n\nThe 'Rock Climbing Rendezvous' offers a variety of climbing opportunities, from traditional top-rope routes to bouldering and lead climbing. Our expert guides will ensure safety while you push your limits and enjoy the freedom of ascending rocky heights.\n\nWhether you're an adrenaline junkie or simply love the beauty of the great outdoors, this event is a celebration of adventure and the thrill of reaching new heights.\n\nJoin us for the 'Rock Climbing Rendezvous' and embrace the vertical world. Scale the cliffs, conquer your fears, and make memories that will last a lifetime.\n\n**Event Highlights:**\n- Varied climbing challenges\n- Natural rock formations\n- Expert guides\n- Outdoor adventure\n\n**Date:** [Insert Date]\n**Location:** [Insert Location]\n**Registration Fee:** $44.99\n\nGet your tickets now and reach for the summit at the 'Rock Climbing Rendezvous'!",
-        "details_button": "Learn More"
+        "location": "Mountain Peaks",
+        "time": "23 December 2024, Thursday",
+        "venue": "Natural Rock Formations"
     },
     {
         "id": 6,
@@ -45,6 +55,8 @@
         "image": "https://i.ibb.co/M5gvpYZ/quino-al-r-N78-O6-Ugdk-E-unsplash.jpg",
         "price": 34.99,
         "description": "Experience the thrill of off-road running at the 'Trail Running Expedition,' an event designed for those who love to explore nature on foot. Whether you're an avid trail runner or new to the sport, this expedition will take you on an unforgettable journey through rugged terrains and scenic landscapes.\n\nThe 'Trail Running Expedition' offers a range of trail running challenges, from scenic forest paths to challenging mountain ascents. It's a test of endurance, navigation, and love for the great outdoors. Runners will be surrounded by the beauty of nature as they conquer various terrains.\n\nOur carefully selected trails provide a mix of difficulty levels, ensuring that both seasoned trail runners and newcomers can enjoy the event. The camaraderie among participants, the sense of achievement, and the stunning vistas make this expedition a truly special experience.\n\nJoin us for the 'Trail Running Expedition' and discover the joy of off-road running. Feel the connection with nature, challenge your limits, and create lasting memories in the wilderness.\n\n**Event Highlights:**\n- Diverse trail running routes\n- Natural beauty\n- Endurance challenge\n- Outdoor adventure\n\n**Date:** [Insert Date]\n**Location:** [Insert Location]\n**Registration Fee:** $34.99\n\nGet your tickets now and embark on a trail running adventure at the 'Trail Running Expedition'!",
-        "details_button": "Learn More"
+        "location": "Wilderness Trails",
+        "time": "10 January 2024, Saturday",
+        "venue": "Rugged Terrain"
     }
 ]

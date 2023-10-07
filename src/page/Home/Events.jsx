@@ -23,7 +23,7 @@ const Events = ({events}) => {
           : <p>{description}</p>
         }
         </p>
-        <p> <span className="text-xl text-black font-medium py-4">Entry Fee:</span> <span className="text-red-500 text-xl font-bold">${price}</span> <span>/ticket</span></p>
+        <p> <span className="text-xl text-black font-medium py-4">Entry Fee:</span> <span className="text-red-500 text-xl font-bold">${price}</span> <span>/participants</span></p>
         
           <div className="card-actions">
            <Link to={`/events/${id}`}> <button className="btn bg-cyan-500 text-white">Learn More <FaForward></FaForward> </button></Link>
