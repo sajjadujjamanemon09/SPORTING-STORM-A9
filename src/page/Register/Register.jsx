@@ -3,25 +3,30 @@ import { Link } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
 
 
-const Login = () => {
+const Register = () => {
 
-  const {signIn} = useContext(AuthContext)
+  const {createUser} = useContext(AuthContext)
 
-    const handleLogin = e =>{
+    const handleRegister = e =>{
         e.preventDefault()
         console.log(e.currentTarget);
         const form = new FormData(e.currentTarget)
+        const firstName = form.get('firstName')
+        const lastName = form.get('lastName')
         const email = form.get('email')
         const password = form.get('password')
-        console.log(email, password);
-        signIn(email, password)
+        console.log(firstName, lastName, email, password);
+        
+        // create user
+        createUser(email, password)
         .then(result =>{
           console.log(result.user);
         })
         .catch(error =>{
-          console.error(error);
+          console.error(error)
         })
     }
+
 
     return (
         <div>
@@ -29,9 +34,16 @@ const Login = () => {
 
     <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
     <div className="text-center">
-      <h1 className="text-5xl font-bold pt-8">Login now!</h1>
+      <h1 className="text-5xl font-bold pt-8">Please Register</h1>
       </div>
-      <form onSubmit={handleLogin} className="card-body">
+      <form onSubmit={handleRegister} className="card-body">
+      <div className="form-control">
+          <label className="label">
+            <span className="label-text">Name</span>
+          </label>
+          <input type="text" placeholder="First Name" name="firstName" className="input input-bordered mb-3" required />
+          <input type="text" placeholder="Last Name" name="lastName" className="input input-bordered" required />
+        </div>
       <div className="form-control">
           <label className="label">
             <span className="label-text">Email</span>
@@ -43,15 +55,12 @@ const Login = () => {
             <span className="label-text">Password</span>
           </label>
           <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
-          <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
-          </label>
         </div>
         <div className="form-control mt-6">
-          <button className="btn btn-neutral">Login</button>
+          <button className="btn btn-neutral">Register</button>
         </div>
       </form>
-      <p className="text-center pb-4">Do not have an Account <Link className="text-blue-600 font-bold" to='/register'>Register</Link> </p>
+      <p className="text-center pb-4">Already have an Account <Link className="text-blue-600 font-bold" to='/login'>Login</Link> </p>
     </div>
   </div>
 </div>
@@ -59,4 +68,4 @@ const Login = () => {
     );
 };
 
-export default Login;
+export default Register;
