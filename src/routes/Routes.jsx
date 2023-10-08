@@ -9,12 +9,14 @@ import Blog from "../page/Blog";
 import About from "../page/About";
 import Booking from "../page/Booking";
 import OurTeam from "../pages/OurTeam";
+import ErrorPage from "../page/ErrorPage";
 
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Root></Root>,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 path: '/',

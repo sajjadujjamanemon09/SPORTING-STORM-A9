@@ -9,7 +9,7 @@ const Events = ({events}) => {
     const {name, image, description, id, price} = events;
 
     return (
-        <div className="card w-96 bg-cyan-50 shadow-xl">
+        <div className="card bg-cyan-50 shadow-xl">
         <figure className="px-6 pt-6">
           <img src={image} alt="Events" className="rounded-xl" />
         </figure>

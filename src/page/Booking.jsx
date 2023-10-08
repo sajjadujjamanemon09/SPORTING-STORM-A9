@@ -5,7 +5,7 @@ const Booking = () => {
         <div className="max-w-7xl mx-auto p-2">
             <div className="text-center">
             <p  className="text-cyan-700 pb-4">PRICING PLANS</p>
-            <h2 className="text-4xl font-bold pb-10">Affordable pricing for all Participants</h2>
+            <h2 className="text-4xl font-bold pb-10 ">Affordable pricing for all <span className="text-4xl font-bold text-red-600">PLAYERS</span></h2>
             </div>
             <div className="grid grid-cols-1 pl-10 md:grid-cols-3 md:pl-0 gap-6">
                     <div className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-cyan-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">

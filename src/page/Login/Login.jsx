@@ -5,7 +5,7 @@ import { AuthContext } from "../../providers/AuthProvider";
 
 const Login = () => {
 
-  const {signIn} = useContext(AuthContext)
+  const {signIn, logInWithGoogle} = useContext(AuthContext)
   const location = useLocation()
   const navigate = useNavigate()
   console.log('location in the log in page', location);
@@ -31,6 +31,17 @@ const Login = () => {
         })
     }
 
+    const handleGoogleSignIn =() =>{
+      logInWithGoogle()
+      .then(result =>{
+          console.log(result.user);
+          navigate(location?.state ? location.state : '/');
+      })
+      .catch(error =>{
+          console.error(error);
+      })
+  }
+
     return (
         <div>
             <div className="hero min-h-[90vh]">
@@ -52,13 +63,16 @@ const Login = () => {
           </label>
           <input type="password" placeholder="Password" name="password" className="input input-bordered" required />
           <label className="label">
-            <a href="#" className="label-text-alt link link-hover">Forgot password?</a>
+            <a href="#" className="label-text-alt link link-hover pt-2">Forgot password?</a>
           </label>
         </div>
-        <div className="form-control mt-6">
+        <div className="form-control mt-2">
           <button className="btn btn-neutral">Login</button>
         </div>
       </form>
+      <div className="card-body -mt-12">
+          <button onClick={handleGoogleSignIn} className="btn btn-ghost border-black">Login With Google</button>
+        </div>
       <p className="text-center pb-4">Do not have an Account <Link className="text-blue-600 font-bold" to='/register'>Register</Link> </p>
     </div>
   </div>
