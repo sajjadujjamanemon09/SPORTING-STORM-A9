@@ -7,6 +7,8 @@ import Event from "../page/Event/Event";
 import PrivetRoutes from "./PrivetRoutes";
 import Blog from "../page/Blog";
 import About from "../page/About";
+import Booking from "../page/Booking";
+import OurTeam from "../pages/OurTeam";
 
 
 const router = createBrowserRouter([
@@ -23,6 +25,14 @@ const router = createBrowserRouter([
                 path: '/events/:id',
                 element: <PrivetRoutes><Event></Event></PrivetRoutes>,
                 loader : () => fetch('/sports.json')
+            },
+            {
+                path: '/booking',
+                element: <PrivetRoutes><Booking></Booking></PrivetRoutes>
+            },
+            {
+                path: '/ourTeam',
+                element: <PrivetRoutes><OurTeam></OurTeam></PrivetRoutes>
             },
             {
                 path: '/events',

@@ -7,8 +7,8 @@ const About = () => {
             <h2 className="text-center text-5xl font-bold text-cyan-500 mt-16 mb-10">About US</h2>
             </div>
             <div className="md:flex justify-between items-center">
-                <div>
-                    <img src="https://i.ibb.co/kmF867B/undraw-Mobile-testing-re-w7yb.png" alt="" />
+                <div className="md:w-2/4">
+                    <img src="https://i.ibb.co/g4GBYzS/27208.jpg" alt="" />
                 </div>
                 <div className="md:w-2/4">
                     <p className="text-cyan-700">WHO WE ARE</p>

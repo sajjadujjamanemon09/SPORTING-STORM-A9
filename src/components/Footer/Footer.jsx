@@ -15,11 +15,11 @@ const Footer = () => {
         <a className="link link-hover">Jobs</a> 
       </nav> 
       <nav>
-        <div className="grid grid-flow-col gap-4 text-cyan-600 text-2xl">
-          <a><FaTwitter></FaTwitter></a> 
-          <a><FaSquareFacebook></FaSquareFacebook></a> 
-          <a><FaYoutube></FaYoutube></a>
-          <a><FaInstagram></FaInstagram></a>
+        <div className="grid grid-flow-col gap-4 text-2xl">
+          <a><FaTwitter className="text-sky-400"></FaTwitter></a> 
+          <a><FaYoutube className="text-rose-600"></FaYoutube></a>
+          <a><FaSquareFacebook className="text-sky-500"></FaSquareFacebook></a> 
+          <a><FaInstagram className="text-red-600"></FaInstagram></a>
         </div>
       </nav> 
       <aside>

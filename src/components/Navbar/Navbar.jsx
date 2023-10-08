@@ -16,8 +16,8 @@ const Navbar = () => {
   const navLinks = (
     <>
       <li><NavLink to='/'>Home</NavLink></li>
-      <li><NavLink to='/events'>Events</NavLink></li>
-      <li><NavLink to='/blog'>Blog & News</NavLink></li>
+      <li><NavLink to='/booking'>Booking Now</NavLink></li>
+      <li><NavLink to='/ourTeam'>Our Team</NavLink></li>
       <li><NavLink to='/about'>About US</NavLink></li>
     </>
   );
