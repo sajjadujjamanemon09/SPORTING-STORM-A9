@@ -15,12 +15,12 @@ console.log(greetign);
 - B: `ReferenceError: greetign is not defined`
 - C: `undefined`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>- B: `ReferenceError: greetign is not defined`</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>Here "greeting" is a variable. but when i access it for "greetign" the variable is not define anywhere in this code. There is a typographical error where intended to declare a variable name</i>
 
 </p>
 </details>
@@ -40,13 +40,12 @@ sum(1, "2");
 - C: `"12"`
 - D: `3`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>- C: `"12"`</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
-
+<i>In this code there is a sum function and the parameters is 'a' & 'b'. The value of the parameters 'a' is `1` this is a 'number' and the value of the parameters 'b' is `"2"` this is a 'string'.If one of the value is 'string' then JavaScript will concatenate these two values, resulting in the string `"12"`. </i>
 </p>
 </details>
 
@@ -66,12 +65,12 @@ console.log(food);
 - C: `['🍝', '🍕', '🍫', '🥑', '🍔']`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>- A: `['🍕', '🍫', '🥑', '🍔']`</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>There is 'food' is an array & 'info' is an object.They are two separate variables. 'info.favoriteFood' is initially reassigned its can't changes the value of the 'food' array.In JavaScript, reassigning a property of an object does not automatically change other variables or arrays that were originally assigned the same value.So the value of 'food' is unchanged </i>
 
 </p>
 </details>
@@ -91,12 +90,12 @@ console.log(sayHi());
 - C: `Hi there, null`
 - D: `ReferenceError`
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>- B: `Hi there, undefined`</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>In this code 'sayHi' is a function, there is a parameter 'name', but when it call 'sayHi()' without passing any argument, name is undefined within the function.So the result is `Hi there, undefined`</i>
 
 </p>
 </details>
@@ -119,12 +118,12 @@ console.log(count);
 - C: 3
 - D: 4
 
-<details><summary><b>Answer</b></summary>
+<details><summary><b>- C: 3</b></summary>
 <p>
 
 #### Answer: ?
 
-<i>Write your explanation here</i>
+<i>In this code there is a 'forEach' loop. Ans the 'nums' array checks each element 'num' to see if it's truthy. In JavaScript, all numbers except '0' are considered truthy. So, for each element that is not '0', the count is incremented by 1. There are three elements in the 'nums' array (1, 2, and 3), so count ends up being 3, and the output is 3.</i>
 
 </p>
 </details>
