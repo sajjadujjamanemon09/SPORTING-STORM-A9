@@ -1,6 +1,6 @@
-⦿ Project Name        :-  SPORTING STORM        
+⦿ Project Name        :-    SPORTING STORM        
 
-⦿ Project Live Link   :-     
+⦿ Project Live Link   :-  (https://assignment-9-980d3.web.app/)
 
 
 
