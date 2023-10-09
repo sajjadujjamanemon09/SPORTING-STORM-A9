@@ -3,7 +3,7 @@ import { FaTwitter,FaSquareFacebook, FaInstagram } from "react-icons/fa6";
 const OurTeam = () => {
     return (
         <div className=" p-2">
-        <div data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="300"
+        <div data-aos="zoom-in-up" data-aos-duration="1000" data-aos-offset="300"
      data-aos-easing="ease-in-sine" className="relative grid h-[40vh] w-full grid-cols-1 place-items-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
           <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/7VHDTt3/wepik-export-20231008071141-PBf7.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
             <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/90 via-black/70 hero-overlay bg-opacity-50"></div>

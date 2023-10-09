@@ -3,7 +3,7 @@
 const Banner = () => {
     return (
         <div className="max-w-7xl mx-auto ">
-            <div data-aos="zoom-out-down" data-aos-easing="linear"
+            <div data-aos="zoom-in-down" data-aos-easing="linear"
      data-aos-duration="2000" className="hero md:h-[70vh] w-full" style={{backgroundImage: 'url(https://i.ibb.co/x7kTPB8/runner-79590-1280.jpg)'}}>
   <div className="hero-overlay bg-opacity-60"></div>
   <div className="text-neutral-content">

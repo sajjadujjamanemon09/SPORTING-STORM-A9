@@ -52,7 +52,7 @@ const Register = () => {
         })
         .catch(error =>{
           console.error(error)
-          swal("User already Registered","", "info");
+          swal("User Already Registered","", "info");
         })
     }
 

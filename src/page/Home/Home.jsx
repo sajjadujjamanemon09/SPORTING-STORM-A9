@@ -10,7 +10,7 @@ const Home = () => {
     console.log(events);
 
     return (
-        <div className="max-w-7xl mx-auto ">
+        <div className="max-w-7xl mx-auto">
             <Banner></Banner>
             <div className="text-center ">
             <h2 className="text-center text-7xl font-bold text-cyan-500 mt-16">Our Program & Events</h2>
