@@ -31,8 +31,8 @@ Here added some features and functionalities of this Project:
     ➤  *Private Routes and Access Control*: Certain routes, such as `sports event details`, `our team`, and `booking now` are private and only accessible to authenticated users.
         Unauthorized users attempting to access private routes are redirected to the login page.
 
-    ➤  *Toast Notifications*: Users receive toast notifications for successful sign-in and login actions.
-        Successful login results in a toast indicating a successful login, while incorrect credentials trigger a notification.
+    ➤  *Sweet Alert Notifications*: Users receive alert notifications for successful sign-in and login actions.
+        Successful login results in a alert indicating a successful login, while incorrect credentials trigger a notification.
 
     ➤  *Consistent Navbar and Footer*: The navigation bar and footer are present on all pages of the website, ensuring a consistent user experience.
         The footer includes links to terms and conditions, social media profiles, and copyright information.

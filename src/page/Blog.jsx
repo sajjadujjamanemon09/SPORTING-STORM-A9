@@ -9,21 +9,21 @@ const Blog = () => {
             </div>
             
          <div className="grid md:grid-cols-2 gap-4">
-         <div className="card  lg:card-side bg-base-100 shadow-xl">
+         <div  data-aos="fade-down-right" data-aos-duration="1500" className="card  lg:card-side bg-base-100 shadow-xl">
   <figure><img className="w-[40vh] md:h-[30vh] lg:h-full" src="https://i.ibb.co/GFtqVN0/nicholas-green-n-Pz8akk-Um-DI-unsplash.jpg" alt="Album"/></figure>
   <div className="card-body lg:w-2/3">
     <h2 className="card-title text-2xl font-bold text-cyan-700">MEMORIES AND CAMARADERIE EXPLORING JOURNEYS</h2>
     <p>Sports events are exhilarating spectacles that transcend boundaries. They bring together fans, igniting their passion and uniting them in a shared experience of competition and celebration. Whether its a local match or a global championship, the thrill of witnessing athletes in action is truly unparalleled.</p>
   </div>
 </div>
-         <div className="card  lg:card-side bg-base-100 shadow-xl">
+         <div data-aos="fade-down-left" data-aos-duration="1500" className="card  lg:card-side bg-base-100 shadow-xl">
   <figure><img className="w-[40vh] md:h-[30vh] lg:h-full" src="https://i.ibb.co/zPJmkC6/ryan-Oywy-Pkr-DEvg-unsplash.jpg" alt="Album"/></figure>
   <div className="card-body lg:w-2/3">
     <h2 className="card-title text-2xl font-bold text-cyan-700">FROM SOLE TO SOUL THE THRIVING COMMUNITY</h2>
     <p>The beauty of sports events lies in their diversity. Each sport presents its own unique challenges and showcases extraordinary talents. From the finesse of tennis to the raw power of football, these events inspire athletes to dedicate themselves fully, pushing the boundaries of human potential.</p>
   </div>
 </div>
-         <div className="card  lg:card-side bg-base-100 shadow-xl">
+         <div data-aos="fade-up-right" data-aos-duration="1500" className="card  lg:card-side bg-base-100 shadow-xl">
   <figure><img className="w-[40vh] md:h-[30vh] lg:h-full" src="https://i.ibb.co/wCz6vZ2/ji-mmm-yy-Jr5x1-CAWy-So-unsplash.jpg" alt="Album"/></figure>
   <div className="card-body lg:w-2/3">
     <h2 className="card-title text-2xl font-bold text-cyan-700">THERE HAVE ALWAYS NEW EVENTS</h2>
@@ -32,7 +32,7 @@ const Blog = () => {
 </p>
   </div>
 </div>
-         <div className="card  lg:card-side bg-base-100 shadow-xl">
+         <div data-aos="fade-up-left" data-aos-duration="1500" className="card  lg:card-side bg-base-100 shadow-xl">
   <figure><img className="w-[40vh] md:h-[30vh] lg:h-full" src="https://i.ibb.co/cFt4kcP/ray-sangga-kusuma-7u-Sr-Oy-Y1-U0-I-unsplash.jpg" alt="Album"/></figure>
   <div className="card-body lg:w-2/3">
     <h2 className="card-title text-2xl font-bold text-cyan-700">ELEVATE YOUR RUNNING THE EXPERTISE TRAINING</h2>

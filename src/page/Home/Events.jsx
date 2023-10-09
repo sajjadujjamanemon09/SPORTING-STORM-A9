@@ -9,7 +9,8 @@ const Events = ({events}) => {
     const {name, image, description, id, price} = events;
 
     return (
-        <div className="card bg-cyan-50 shadow-xl">
+        <div  data-aos="fade-up"
+        data-aos-anchor-placement="top-center" className="card bg-cyan-50 shadow-xl">
         <figure className="px-6 pt-6">
           <img src={image} alt="Events" className="rounded-xl" />
         </figure>

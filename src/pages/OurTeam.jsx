@@ -3,7 +3,8 @@ import { FaTwitter,FaSquareFacebook, FaInstagram } from "react-icons/fa6";
 const OurTeam = () => {
     return (
         <div className=" p-2">
-        <div className="relative grid h-[40vh] w-full grid-cols-1 place-items-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+        <div data-aos="zoom-out-up" data-aos-duration="1000" data-aos-offset="300"
+     data-aos-easing="ease-in-sine" className="relative grid h-[40vh] w-full grid-cols-1 place-items-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
           <div className="absolute inset-0 m-0 h-full w-full overflow-hidden rounded-none bg-transparent bg-[url('https://i.ibb.co/7VHDTt3/wepik-export-20231008071141-PBf7.jpg')] bg-cover bg-clip-border bg-center text-gray-700 shadow-none">
             <div className="to-bg-black-10 absolute inset-0 h-full w-full bg-gradient-to-t from-black/90 via-black/70 hero-overlay bg-opacity-50"></div>
           </div>
@@ -19,7 +20,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/8MrqDNs/portrait-man-laughing.jpg" alt="profile-picture" />
   </div>
@@ -40,7 +42,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex 
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex 
              flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/qjYC8mX/guy-plaid-shirt.jpg" alt="profile-picture" />
@@ -62,7 +65,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/4TqFgsX/worldface-spanish-guy-white-background.jpg" alt="profile-picture" />
   </div>
@@ -83,7 +87,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/jD1Yj7G/portrait-blonde-girl-looking-photographer.jpg" alt="profile-picture" />
   </div>
@@ -105,7 +110,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/zrPRMxV/afro-man-with-his-arms-crossed.jpg" alt="profile-picture" />
   </div>
@@ -126,7 +132,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/FXCKmzQ/smiling-young-man-with-crossed-arms-outdoors.jpg" alt="profile-picture" />
   </div>
@@ -147,7 +154,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/rmsW03t/happy-woman-gray-polo-shirt-with-pink-pin-button.jpg" alt="profile-picture" />
   </div>
@@ -168,7 +176,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/BV9VR1r/portrait-interesting-young-man-winter-clothes.jpg" alt="profile-picture" />
   </div>
@@ -189,7 +198,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/hBhwSNP/brunette-businesswoman-posing.jpg" alt="profile-picture" />
   </div>
@@ -210,7 +220,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/WKMnL3v/portrait-young-man.jpg" alt="profile-picture" />
   </div>
@@ -231,7 +242,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/J5MYX60/beautiful-woman-office.jpg" alt="profile-picture" />
   </div>
@@ -252,7 +264,8 @@ const OurTeam = () => {
 
 
 
-            <div className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
+            <div data-aos="fade-up"
+     data-aos-anchor-placement="top-center" className="relative flex flex-col rounded-xl bg-base-300 bg-clip-border text-gray-700 shadow-md">
   <div className="relative mx-4 mt-4 overflow-hidden rounded-xl bg-white bg-clip-border text-gray-700 shadow-lg">
     <img src="https://i.ibb.co/kxZ8J5x/young-man-wearing-blue-outfit-with-arms-crossed.jpg" alt="profile-picture" />
   </div>

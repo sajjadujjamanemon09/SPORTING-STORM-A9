@@ -8,7 +8,8 @@ const Booking = () => {
             <h2 className="text-4xl font-bold pb-10 ">Affordable pricing for all <span className="text-4xl font-bold text-red-600">PLAYERS</span></h2>
             </div>
             <div className="grid grid-cols-1 pl-10 md:grid-cols-3 md:pl-0 gap-6">
-                    <div className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-cyan-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
+                    <div data-aos="flip-up"  data-aos-easing="linear"
+     data-aos-duration="1000" className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-cyan-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
   <div className="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
     <p className="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
       basic
@@ -142,7 +143,8 @@ const Booking = () => {
     </button>
   </div>
                     </div>
-                    <div className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-cyan-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
+                    <div data-aos="flip-down"  data-aos-easing="linear"
+     data-aos-duration="1000"  className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-cyan-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
   <div className="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
     <p className="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
       standard
@@ -276,7 +278,8 @@ const Booking = () => {
     </button>
   </div>
                     </div>
-                    <div className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-cyan-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
+                    <div data-aos="flip-up"  data-aos-easing="linear"
+     data-aos-duration="1000"  className="relative flex w-full max-w-[20rem] flex-col rounded-xl bg-gradient-to-tr from-cyan-600 to-pink-400 bg-clip-border p-8 text-white shadow-md shadow-pink-500/40">
   <div className="relative m-0 mb-8 overflow-hidden rounded-none border-b border-white/10 bg-transparent bg-clip-border pb-8 text-center text-gray-700 shadow-none">
     <p className="block font-sans text-sm font-normal uppercase leading-normal text-white antialiased">
       premium

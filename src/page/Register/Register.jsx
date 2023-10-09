@@ -61,7 +61,7 @@ const Register = () => {
         <div>
             <div className="hero min-h-[90vh]">
 
-    <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
+    <div data-aos="zoom-in-down" className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
     <div className="text-center">
       <h1 className="text-5xl font-bold pt-8">Please Register</h1>
       </div>

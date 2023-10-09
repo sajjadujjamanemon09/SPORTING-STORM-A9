@@ -1,6 +1,8 @@
 import { useContext } from "react";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import { AuthContext } from "../../providers/AuthProvider";
+import { FaGoogle } from 'react-icons/fa';
+import swal from 'sweetalert';
 
 
 const Login = () => {
@@ -20,6 +22,7 @@ const Login = () => {
         signIn(email, password)
         .then(result =>{
           console.log(result.user);
+          swal("User Login successfully","", "success");
 
           // navigate after login
           navigate(location?.state ? location.state : '/')
@@ -28,6 +31,7 @@ const Login = () => {
         })
         .catch(error =>{
           console.error(error);
+          swal("Wrong User Name or Password!", "", "error");
         })
     }
 
@@ -46,7 +50,7 @@ const Login = () => {
         <div>
             <div className="hero min-h-[90vh]">
 
-    <div className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
+    <div data-aos="zoom-in-up" className="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
     <div className="text-center">
       <h1 className="text-5xl font-bold pt-8">Login now!</h1>
       </div>
@@ -71,7 +75,7 @@ const Login = () => {
         </div>
       </form>
       <div className="card-body -mt-12">
-          <button onClick={handleGoogleSignIn} className="btn btn-ghost border-black">Login With Google</button>
+          <button onClick={handleGoogleSignIn} className="btn btn-ghost border-black"><FaGoogle className="text-2xl"></FaGoogle>Login With Google</button>
         </div>
       <p className="text-center pb-4">Do not have an Account <Link className="text-blue-600 font-bold" to='/register'>Register</Link> </p>
     </div>
